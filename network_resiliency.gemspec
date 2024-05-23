@@ -10,10 +10,11 @@ else
 end
 
 Gem::Specification.new do |spec|
-  spec.name    = "test"
+  spec.name    = "network_resiliency"
   spec.version = "0.0.#{patch}"
   spec.authors = ["Chime Financial"]
 
+  spec.summary = "network_resiliency library"
   spec.homepage    = "https://github.com/1debit/network_resiliency_rb"
 
   spec.required_ruby_version = Gem::Requirement.new(">= 3.0")
